@@ -38,7 +38,7 @@ prometheus-blackbox-exporter:
         timeout: 10m
         http:
           headers:
-              User-Agent: "blackbox-monitoring"
+              User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36""
           valid_http_versions: ["HTTP/1.1", "HTTP/2.0"]
           no_follow_redirects: false
           preferred_ip_protocol: "ip4"
