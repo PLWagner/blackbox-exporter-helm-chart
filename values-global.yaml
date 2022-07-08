@@ -40,7 +40,7 @@ prometheus-blackbox-exporter:
           headers:
             User-Agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36"
           valid_http_versions: ["HTTP/1.1", "HTTP/2.0", "HTTP/3.0"]
-          preferred_ip_protocol: "ip6"
+          preferred_ip_protocol: "ip4"
       icmp_ipv4:
         prober: icmp
         icmp:
