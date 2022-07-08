@@ -35,7 +35,7 @@ prometheus-blackbox-exporter:
     modules:
       http_2xx:
         prober: http
-        timeout: 5s
+        timeout: 10m
         http:
           headers:
               User-Agent: "blackbox-monitoring"
